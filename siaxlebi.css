@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+   border: 1px solid black;
+   height: 130px;
+}
+
+.navbar li, a{
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   margin-left: 62px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap:  row wrap;
+    justify-content: space-around;
+    transform: translateY(-103px);
+    
+}
+ 
+#main{
+    border: 1px solid black;
+    margin-top: 23px;
+}
+
+.text{
+    float: right;
+    margin-right: 88px;
+    transform: translateY(-400px);
+}
+
+
+#footer{
+   border: 1px solid black; 
+   height: 250px;
+   margin-top: 20px;
+}
+.foo-cont{
+    margin-left: 940px;
+    transform: translateY(-200px);
+    padding: 12px;
+    
+}
+
+input, label, button{
+    margin: 12px;
+}

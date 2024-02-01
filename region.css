@@ -1,0 +1,82 @@
+html{
+    background-color: rgb(230, 228, 228);
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+   border: 1px solid black;
+   height: 130px;
+}
+
+.navbar li, a{
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   margin-left: 76px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap:  row wrap;
+    justify-content: space-around;
+    transform: translateY(-103px);
+    
+}
+ #main{
+    border: 1px solid rgb(0, 0, 0);
+    height: 600px;
+    margin-top: 12px;
+
+ }
+ .hot{
+    display: flex;
+    transform: translateY(23px);
+    justify-content: space-around;
+ }
+  
+.adjara{
+    border: 1px solid black;
+    width: 380px;
+}
+.adj{
+    margin-left: 28px;
+}
+ .kakheti{
+    border: 1px solid black;
+    width: 380px;
+ }
+ .tbilisi{
+    border: 1px solid black;
+    width: 380px;
+ }
+ .tbili{
+    margin-left: 28px;
+ }
+
+ .guria{
+    border: 1px solid black;
+    width: 380px;
+ }
+ .guri{
+    margin-left: 28px;
+ }
+
+#footer{
+   border: 1px solid black; 
+   height: 250px;
+   margin-top: 20px;
+}
+.foo-cont{
+    margin-left: 940px;
+    transform: translateY(-200px);
+    padding: 12px;
+    
+}
+
+input, label, button{
+    margin: 12px;
+}

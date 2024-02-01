@@ -1,0 +1,82 @@
+html{
+    background-color: rgb(230, 228, 228);
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+   border: 1px solid black;
+   height: 130px;
+}
+
+.navbar li, a{
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   margin-left: 76px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap:  row wrap;
+    justify-content: space-around;
+    transform: translateY(-103px);
+    
+}
+ #main{
+    border: 1px solid red;
+    height: 600px;
+    margin-top: 12px;
+
+ }
+ .hot{
+    display: flex;
+    transform: translateY(23px);
+    justify-content: space-around;
+ }
+  
+.orbi{
+    border: 1px solid black;
+    width: 320px;
+}
+.orb{
+    margin-left: 28px;
+}
+ .ramada{
+    border: 1px solid black;
+    width: 320px;
+ }
+ .boti{
+    border: 1px solid black;
+    width: 320px;
+ }
+ .bot{
+    margin-left: 28px;
+ }
+
+ .parag{
+    border: 1px solid black;
+    width: 320px;
+ }
+ .para{
+    margin-left: 28px;
+ }
+
+#footer{
+   border: 1px solid black; 
+   height: 250px;
+   margin-top: 20px;
+}
+.foo-cont{
+    margin-left: 940px;
+    transform: translateY(-200px);
+    padding: 12px;
+    
+}
+
+input, label, button{
+    margin: 12px;
+}
